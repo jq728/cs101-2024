@@ -1,0 +1,1 @@
+print(''.join('.'+n for n in input().lower() if n not in 'aeiouy'))

@@ -1,0 +1,5 @@
+str1, str2 = input().split()
+num1=''.join(filter(str.isdigit, str1))
+num2=''.join(filter(str.isdigit, str2))
+total=int(num1)+int(num2)
+print(total)
